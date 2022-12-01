@@ -5,12 +5,6 @@ const wrapping = gifts => gifts.map(gift => `${'*'.repeat(gift.length+2)}\n*${gi
 const wrapped = wrapping(gifts)
 
 console.log(wrapped)
-/* [
-     "******\n*book*\n******",
-     "******\n*game*\n******",
-     "*******\n*socks*\n*******"
-   ] */
-
 
 wrapped.map(elem => {
   console.log(elem);
